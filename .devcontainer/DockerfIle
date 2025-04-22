@@ -1,4 +1,2 @@
 FROM mcr.microsoft.com/devcontainers/universal:2-linux
 RUN apt-get update
-RUN pip3 install flask flask-cors
-RUN npm install -g @vue/cli
